@@ -1,0 +1,66 @@
+
+/* ids y clases */
+/* ids son unicos por elemento */
+/* clases son repetibles */
+
+body{
+    /* color de fondo */
+    background-color:gray;
+    /* estilo de letra */
+    font-family: 'roboto', sans-serif;
+}
+
+h1{
+    color: blue;
+    /* centrar texto */
+    text-align: center;
+}
+
+p{
+    /* color de texto */
+    color: black;
+    /* tamaño de letra */
+    font-size: 20px;
+} 
+
+/* div separador especial para una parte especifica */
+div h2{
+
+    color: blue;
+    text-align: center;
+}
+/* id llamado parrafo_especial */
+#parrafo_especial{
+    color: blueviolet;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* clase llamada parrafo */
+.parrafo{
+    color:black;
+    font-style: italic;
+}
+
+/* hacer que el link y la imagen se muestren en bloque */
+a, img{
+    display: block;
+}
+
+/* propiedades del link */
+a{
+    margin: 20px 10px;
+    text-decoration: none;
+    color:aquamarine;
+}
+
+/* hacer que el link cambie de color cuando se pasa el mouse por encima */
+a:hover{
+    color: brown;
+}
+
+/* hacer que la imagen se adapte al tamaño de la pagina y mantenga su proporcion */
+img{
+    width:50%;
+    margin: auto;
+}
